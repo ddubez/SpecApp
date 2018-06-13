@@ -77,11 +77,10 @@
 		4FBD01DB20D01D4100ADEE4B /* SpecApp */ = {
 			isa = PBXGroup;
 			children = (
-				4FBD01DC20D01D4100ADEE4B /* AppDelegate.swift */,
-				4FBD01DE20D01D4100ADEE4B /* ViewController.swift */,
-				4FBD01E020D01D4100ADEE4B /* Main.storyboard */,
-				4FBD01E320D01D4200ADEE4B /* Assets.xcassets */,
-				4FBD01E520D01D4200ADEE4B /* LaunchScreen.storyboard */,
+				4FBD01FF20D01D7800ADEE4B /* Model */,
+				4FBD01FE20D01D7100ADEE4B /* View */,
+				4FBD01FD20D01D6300ADEE4B /* Controller */,
+				4FBD01FC20D01D5000ADEE4B /* Supporting Files */,
 				4FBD01E820D01D4200ADEE4B /* Info.plist */,
 			);
 			path = SpecApp;
@@ -94,6 +93,39 @@
 				4FBD01F320D01D4200ADEE4B /* Info.plist */,
 			);
 			path = SpecAppTests;
+			sourceTree = "<group>";
+		};
+		4FBD01FC20D01D5000ADEE4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FBD01DC20D01D4100ADEE4B /* AppDelegate.swift */,
+				4FBD01E320D01D4200ADEE4B /* Assets.xcassets */,
+				4FBD01E520D01D4200ADEE4B /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FBD01FD20D01D6300ADEE4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FBD01DE20D01D4100ADEE4B /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4FBD01FE20D01D7100ADEE4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FBD01E020D01D4100ADEE4B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FBD01FF20D01D7800ADEE4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
